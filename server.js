@@ -1,6 +1,8 @@
+'use strict'
+
 var express = require('express'),
-    iamgeRouter = require('./imageRouter'),
-    app = express();
+ imageRouter = require('./imageRouter'), 
+ app = express();
 
 app.use('/search',imageRouter);
 
